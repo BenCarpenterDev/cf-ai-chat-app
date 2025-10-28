@@ -15,7 +15,7 @@ let chatHistory = [
 	{
 		role: "assistant",
 		content:
-			"Hello! I'm an LLM chat app powered by Cloudflare Workers AI. How can I help you today?",
+			"Hello! I'm the humour AI bot, powered by LLaMa 3.3 and Cloudflare Workers AI. Ask me anything if you dare!",
 	},
 ];
 let isProcessing = false;

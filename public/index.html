@@ -6,8 +6,8 @@
 		<title>LLM Chat App</title>
 		<style>
 			:root {
-				--primary-color: #f6821f;
-				--primary-hover: #e67e22;
+				--primary-color: #00ADB5;
+				--primary-hover: #00ADB5;
 				--light-bg: #f9fafb;
 				--border-color: #e5e7eb;
 				--text-color: #1f2937;
@@ -138,38 +138,33 @@
 	</head>
 	<body>
 		<header>
-			<h1>Cloudflare AI Chat</h1>
-			<p>Powered by Cloudflare Workers AI</p>
+			<h1>Humour Bot</h1>
 		</header>
 
 		<div class="chat-container">
 			<div id="chat-messages" class="chat-messages">
 				<div class="message assistant-message">
 					<p>
-						Hello! I'm an LLM chat app powered by Cloudflare Workers AI. How can
-						I help you today?
+						Hello! I'm the humour AI bot, powered by LLaMa 3.3 and Cloudflare Workers AI. 
+						Ask me anything if you dare!
 					</p>
 				</div>
 			</div>
 
 			<div class="typing-indicator" id="typing-indicator">
-				AI is thinking...
+				The amazing bot is thinking...
 			</div>
 
 			<div class="message-input">
 				<textarea
 					id="user-input"
-					placeholder="Type your message here..."
+					placeholder="Type your pitiful message here..."
 					rows="1"
 					autofocus
 				></textarea>
 				<button id="send-button">Send</button>
 			</div>
 		</div>
-
-		<footer>
-			<p>Cloudflare Workers AI Chat Template &copy; 2025</p>
-		</footer>
 
 		<!-- Chat app script -->
 		<script src="chat.js"></script>
