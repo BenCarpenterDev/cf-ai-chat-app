@@ -1,5 +1,8 @@
 # Cloudflare AI Assignment - Humour Chatbot
 
+### **Live Demo**
+https://cf-ai-humour-bot.bencarpenterdev.workers.dev/
+
 ### **Overview**
 
 The application consists of two main parts:
